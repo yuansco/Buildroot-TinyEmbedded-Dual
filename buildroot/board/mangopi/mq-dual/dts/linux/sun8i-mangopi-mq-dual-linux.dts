@@ -185,14 +185,15 @@
 	};
 
 	uart3_pins_a: uart3_pins@0 {  /* For t113_evb */
-		pins = "PG8", "PG9";
+		pins = "PB6", "PB7";
 		function = "uart3";
+		muxsel = <7>;
 		drive-strength = <10>;
 		bias-pull-up;
 	};
 
 	uart3_pins_b: uart3_pins@1 {  /* For t113_evb */
-		pins = "PG8", "PG9";
+		pins = "PB6", "PB7";
 		function = "gpio_in";
 	};
 
