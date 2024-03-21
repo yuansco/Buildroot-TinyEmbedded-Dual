@@ -155,6 +155,12 @@
 			};
 
 			/omit-if-no-ref/
+			i2c0_pb2_pins: i2c0-pb2-pins {
+				pins = "PB2", "PB3";
+				function = "i2c0";
+			};
+
+			/omit-if-no-ref/
 			i2c0_pb10_pins: i2c0-pb10-pins {
 				pins = "PB10", "PB11";
 				function = "i2c0";
@@ -291,6 +297,7 @@
 				function = "uart1";
 			};
 
+			/omit-if-no-ref/
 			can0_pins: can0_pins@0 {
 				pins = "PB2", "PB3";
 				function = "can0";
@@ -298,6 +305,7 @@
 				bias-pull-up;
 			};
 
+			/omit-if-no-ref/
 			can1_pins: can1_pins@0 {
 				pins = "PB4", "PB5";
 				function = "can1";
