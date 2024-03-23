@@ -2618,4 +2618,8 @@ menu "Text editors and viewers"
 	source "package/vim/Config.in"
 endmenu
 
+menu "Board Utility"
+    source "package/motion_angle/Config.in"
+endmenu
+
 endmenu
